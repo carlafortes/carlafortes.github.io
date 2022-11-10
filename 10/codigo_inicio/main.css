@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+#rana1 {
+    filter: grayscale(100%);
+}
+
+#rana2 {
+    filter: hue-rotate(80deg);
+}
+
+#rana3 {
+    filter:blur(2px) sepia(100%)
+}
+
+#rana4 {
+    filter: hue-rotate(180deg);
+}
+
+#rana5 {
+    filter: invert(100%);
+}
+
+#rana6 {
+    filter: saturate(8);
+}
+
+#carrusel img:hover {
+    filter: none;
+}
