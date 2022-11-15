@@ -1,18 +1,25 @@
 body {
-    background-color: black;
+    background-image: url(11/imagenes/fondonubes.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
 a {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     text-decoration: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    line-height: 0.7cm;
 }
 
 a:hover {
-    color: rgb(201, 143, 255);
+    color: black;
+    text-decoration:dotted;
 }
