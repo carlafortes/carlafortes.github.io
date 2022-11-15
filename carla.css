@@ -20,6 +20,5 @@ a {
 }
 
 a:hover {
-    color: black;
-    text-decoration:dotted;
+    color: white;
 }
