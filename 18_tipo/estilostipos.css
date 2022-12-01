@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 83vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div {
+    width: 350px;
+    height: 210px;
+    padding: 18px;
+    border-width: 8px;
+    border-style: inset;
+    border-image: repeating-radial-gradient(
+			circle at 10px,
+			rgb(13, 201, 182),
+			rgb(255, 135, 155) 2px,
+			greenyellow 4px,
+			rgb(255, 183, 195) 2px)1;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.texto1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 9pt;
+
+}
+
+.texto2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 14pt;
+}
+
+.texto3 {
+    font-family: 'Tinos', serif;
+    font-size: 13pt;
+}
+
+.texto4 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 13pt;
+}
+
+.texto5 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 12pt;
+}
+
+.texto6 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 10pt;
+}
+
+.texto7 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 12pt;
+}
+
+.texto8 {
+    font-family: 'Amita', cursive;
+    font-size: 9pt;
+}
+
+.texto9 {
+    font-family: 'Bevan', cursive;
+    font-size: 9pt;
+}

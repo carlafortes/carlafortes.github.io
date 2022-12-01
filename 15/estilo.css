@@ -1,0 +1,64 @@
+body {
+    background-image: url(img/fondo_adobe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Oxygen;
+    margin-left: 3cm;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav img {
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2cm;
+    width: 38%;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.texto {
+    font-size: 13pt;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.tipoazul {
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(39, 140, 248);
+}
+
+.button {
+    font-size: 10pt;
+    color: white;
+    background-color: rgb(39, 140, 248);
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+
+
