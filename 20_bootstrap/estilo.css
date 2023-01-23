@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: lightseagreen;;
+}
+
+a {
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightseagreen;
+}
